@@ -22,4 +22,6 @@
 class Sector < ApplicationRecord
   belongs_to :event
   has_many :tickets
+
+  validates :title, uniqueness: true
 end
