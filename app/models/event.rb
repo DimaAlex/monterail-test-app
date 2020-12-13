@@ -11,4 +11,5 @@
 #
 class Event < ApplicationRecord
   has_many :sectors
+  has_many :tickets
 end
