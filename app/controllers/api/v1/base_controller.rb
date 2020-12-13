@@ -6,8 +6,6 @@ class Api::V1::BaseController < ActionController::API
 
   before_action :authenticate!
 
-  respond_to :json
-
   private
 
   def authenticate!
