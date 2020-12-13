@@ -155,10 +155,6 @@ GEM
       ffi (~> 1.0)
     regexp_parser (2.0.0)
     rexml (3.2.4)
-    rspec (3.10.0)
-      rspec-core (~> 3.10.0)
-      rspec-expectations (~> 3.10.0)
-      rspec-mocks (~> 3.10.0)
     rspec-core (3.10.0)
       rspec-support (~> 3.10.0)
     rspec-expectations (3.10.0)
@@ -232,7 +228,6 @@ DEPENDENCIES
   pry-byebug
   puma (~> 4.1)
   rails (~> 6.0.3, >= 6.0.3.4)
-  rspec
   rspec-rails (~> 4.0.1)
   rubocop
   rubocop-performance
