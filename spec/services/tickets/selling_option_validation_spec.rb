@@ -17,6 +17,11 @@ RSpec.describe Tickets::SellingOptionValidation, type: :service do
 
     let(:event) { create(:event, :with_sector) }
     let(:sector) { event.sectors.first }
+    let(:selling_option) { 'avoid_one' }
+
+    it 'returns nil if there are no errors' do
+      expect(validate).to be_nil
+    end
 
     context 'when selling option is all' do
       let(:selling_option) { 'all' }
