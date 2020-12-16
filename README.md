@@ -1,6 +1,8 @@
 # README
 
-## Ruby on Rails Test Task - November 2020 # Background
+## Ruby on Rails Test Task - November 2020
+
+### Background
 
 Our company is currently working on a ticket-selling platform alongside an offshore team.
 We were asked to create two services for ticket reserve and payment (see High-level features).
